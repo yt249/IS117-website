@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----- taiwan image ----*/
+.img-box {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    margin: auto;
+    padding-top: 10px;
+    max-width: 96%;
+    max-height: 100vh;
+}
+/*---- navigation ----*/
+.nav-link{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 20px;
+    width: 25%;
+}
+
+/*---- home page paragraph---- */
+.whole-body{
+    background-color: #F6DDCC;
+}
+
+.card-row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 28%;
+    float: left;
+    width: 33.33%;
+    margin: 30px 2% 50px 3%;
+    background-color: #FCF3CF   ;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card-container {
+    padding:10px 16px;
+    max-width: 350px;
+}
+
+
+/*---- contact page ----*/
+.form{
+    max-width: 400px;
+    min-width: 250px;
+    margin: 20px 25% 0 30%;
+    border-style: solid;
+    border-color: #A04000;
+    padding: 20px 20px;
+}
+.form-group{
+    font-family: Andale Mono, Arial;
+    font-weight: bolder;
+}
+
+/*--- title through out the pages ---*/
+.big-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+
+/*---- all pages ----*/
+.container1{
+    margin-left: auto;
+}
+
+.thing1{
+    border-left: 3px solid #229954;
+    padding-left: 5px;
+    padding-top: 6px;
+    margin-top: 7%;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: auto;
+ }
+.thing2{
+    border-left: 3px solid #EC7063 ;
+    padding-left: 5px;
+    padding-top: 6px;
+    margin-bottom: 30px;
+    margin-top: 7%;
+    width:100%;
+    overflow: auto;
+}
+
+.list{
+    margin-left: 330px;
+}
+
+.picture{
+    float: left;
+}
+
+/*---- me page ----*/
+.container-me{
+    margin-left: 3%;
+}
+
+.me{
+    padding-top: 6px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    overflow: auto;
+}
+.selfie{
+    float: left;
+    border: dotted #F4F6F7 5px;
+    padding: 10px;
+    max-width: 50%;
+
+}
+
+.me-text{
+    max-width: 50%;
+    text-align: left;
+    padding-left: 10px;
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #EDBB99 ;
+    color: #A04000 ;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
+
